@@ -101,7 +101,7 @@ public class testFileReaderWriter {
     /**
      * 从hello.txt中读取数据写入到hello2.txt中
      * */
-    public void testFileReaderFileWriter() throws IOException {
+    public void testFileReaderFileWriter() {
         FileReader fr = null;
         FileWriter fw = null;
         try {
